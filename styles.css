@@ -9,6 +9,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     min-height: 200vh;
     justify-content: space-between;
+    background-color: #F6E7D3;
 }
 
 .header {
@@ -18,22 +19,27 @@ body {
     align-items: center;
 }
 
-a.logo {
-    margin-right: auto;
-}
-
 a.logo img {
     height: auto;
     width: 50%;
 }
 
+a.motto {
+    font-size: 30px;
+    font-weight: 700;
+    color: whitesmoke;
+    margin-right: auto;
+}
+
 a.link {
     margin-left: 16px;
     padding: 8px;
+    align-self: flex-start;
+    color: whitesmoke;
 }
 
 .header,.footer {
-    background-color: rgb(199, 197, 197);
+    background-color: #4C4C4C;
 }
 
 .main {
@@ -49,12 +55,13 @@ a.link {
 .main-section1 {
     padding: 10px;
     gap: 10px;
-    background-color: darkslateblue;
+    background-color: #a59484;
 }
 
 div.main-section2 {
     flex-direction: column;
     padding: 20px;
+    background-color: #F6E7D3;
 }
 
 .benefits {
@@ -73,7 +80,7 @@ div.main-section2 {
 
 .main-section3 {
     flex-direction: column;
-    background-color: rgb(177, 162, 162);
+    background-color: #a59484;
 }
 
 .feedback {
@@ -92,11 +99,11 @@ div.main-section2 {
 }
 
 .main-section4 {
-    background-color: white;
+    background-color: #F6E7D3;
 }
 
 .cta-card {
-    background-color: rgb(74, 151, 253);
+    background-color: #D19916;
     padding: 20px;
     border-radius: 20px;
 }
@@ -110,6 +117,9 @@ div.main-section2 {
 .cta-text {
     color: whitesmoke;
     text-align: start;
+    max-width: 600px;
+    margin: 10px 0;
+    
 }
 
 h2 {
@@ -120,5 +130,6 @@ h2 {
     display: flex;
     justify-content: center;
     padding: 8px;
-    
+    color: whitesmoke;
+    margin-top: auto;
 }
